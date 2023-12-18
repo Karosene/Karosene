@@ -13,12 +13,12 @@ button{
     background-color: white;
     font-size: 50px;
     padding: 0px;
+.div{
+    max-width: 1320px;
+    display: flex;
+    justify-content: center;
     margin: auto;
 }
-.buttons{
-    width: 360px;
-    height: 360px;
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: auto;
     margin: 7.5px 15px 15px;
