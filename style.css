@@ -2,58 +2,46 @@
     margin: 0px;
     font-family: sans-serif;
 }
-body{
-    background-color: black;
-}
-button{
-    height: 75px;
-    width: 75px;
-    border: none;
-    border-radius: 10px;
-    background-color: white;
-    font-size: 50px;
-    padding: 0px;
 .div{
     max-width: 1320px;
     display: flex;
     justify-content: center;
     margin: auto;
+    flex-direction: column;
 }
-    grid-template-columns: repeat(4, 1fr);
+.nadpis{
+    font-size: 45px;
+    font-weight: 600;
     margin: auto;
-    margin: 7.5px 15px 15px;
-    justify-content: center;
+    margin-top: 50px;
 }
-.calculator {
-    width: 390px;
-    height: 585px;
-    background-color: #dadada;
+.podnadpis{
+    font-size: 18px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 10px;
 }
-.acdelete{
-    display: flex;
-    justify-content: space-between;
-    margin: 15px 15px 0px;
-}
-#display {
-    width: 85%;
-    margin: 15px 5% 0px;
-    height: 100px;
-    font-size: 80px;
-    border-radius: 10px;
+.startGame{
+    width: 250px;
+    height: 60px;
+    font-size: 40px;
+    font-weight: 600;
     border: none;
-    padding: 0px;
-    padding-left: 5%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-top: 15px;
 }
-#display:focus-visible{
-    outline: none;
-}
-#deletebutton{
-    width: 165px;
-    height: 75px;
-}
-#allclearbutton{
-    width: 165px;
-    height: 75px;
+.playAgain{
+    width: 250px;
+    height: 60px;
+    font-size: 40px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-top: 15px;
+    display: none;
 }
