@@ -4,38 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <div class="calculator">
-        <input type="text" id="display" value="0" readonly>
-        <div class="acdelete">
-            <button id="allclearbutton" onclick="clearall()">AC</button>
-            <button id="deletebutton" onclick="deleteChar()">DEL</button>
-        </div>
+    <div class="div">
+        <p class="nadpis">
+            ROCK PAPER SCISSORS
+        </p>
+        <p class="podnadpis">
+            <br>Rules:
+            <br>-ROCK breaks SCISSORS
+            <br>-SCISSORS cut PAPER
+            <br>-PAPER wraps ROCK
+        </p>
 
-        <div class="buttons">
-            <button onclick="appendCharacter('7')">7</button>
-            <button onclick="appendCharacter('8')">8</button>
-            <button onclick="appendCharacter('9')">9</button>
-            <button onclick="appendCharacter('/')">÷</button>
-
-            <button onclick="appendCharacter('4')">4</button>
-            <button onclick="appendCharacter('5')">5</button>
-            <button onclick="appendCharacter('6')">6</button>
-            <button onclick="appendCharacter('*')">×</button>
-
-            <button onclick="appendCharacter('1')">1</button>
-            <button onclick="appendCharacter('2')">2</button>
-            <button onclick="appendCharacter('3')">3</button>
-            <button onclick="appendCharacter('-')">-</button>
-
-            <button onclick="appendCharacter('0')">0</button>
-            <button onclick="appendCharacter('.')">.</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="appendCharacter('+')">+</button>
+        <button onclick="startGame()" class="startGame">Start game</button>
+        <button onclick="startGame()" class="playAgain">Play again</button>
+        <div class="counters">
+            <p id="scoreUser">User: 0</p>
+            <p id="scoreComputer">Computer: 0</p>
+            <p id="scoreDraw">Draw: 0</p>
         </div>
     </div>
-    <script src="script.js"></script>
 </body>
-</html>
+</html5
